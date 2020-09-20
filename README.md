@@ -1,5 +1,5 @@
 # Functions: 
-- IoT hardware system visit by specific ip with request format, updates two values “input” and “output”.
+- IoT hardware system visit by specific IP with "PUT" request format, updates two values “input” and “output”.
 - Users visit by ip directly to get the newest shokudo data.
 
 # Example:
