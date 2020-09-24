@@ -4,5 +4,5 @@
 
 # Example:
 - Assume that the total number of seats is 300.
-- IoT hardware system sends data by “PUT” request: "18.183.102.1/?input=250&output=200", this data were stored on server.
-- After that, users visit page by: "18.183.102.1", the “混雑率” becomes 17%.
+- IoT hardware system sends data by “PUT” request: "18.183.102.1/?input=250&output=0" and "18.183.102.1/?input=0&output=200" these data will be stored on server.
+- After that, users visit page by: "54.150.99.88", the “混雑率” becomes 17%.

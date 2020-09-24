@@ -1,0 +1,107 @@
+
+		a:link, a:visited {
+			text-decoration: none;
+			color:#FFFFFF;
+		}
+
+		.global{
+			margin: 0px; /*812*375*/
+			padding: 0px;
+			/*padding-top:30px;*/
+			/*width: 812px;*/
+			/*height: 345px; */
+			/*background-color: #8EFFFD;*/
+		}
+
+		#coop{
+			height: 5%;
+			padding: 12px;
+			/*background-color: #E52E39;*/
+			border-bottom:4px solid #F0A809;
+		}
+		#co_logo{
+			height: 100%;
+			background-image: url(./image/logo_plus.png);
+			background-size: contain;
+			background-repeat:no-repeat;
+		}
+		#title_box{
+			height: 80px;
+			padding: 20px;
+			/*background-color: #E52E39;*/
+		}
+		#title{
+			text-align:center; 
+			font-family:"lucida grande", tahoma, verdana, arial, "hiragino kaku gothic pro",meiryo,"ms pgothic",sans-serif;
+			font-size: 22px;
+			letter-spacing: 3px;
+			font-weight:bold;
+			color:#262626;
+		}
+
+		#local_time{
+			margin-top: 10px;
+			padding-top: 15px;
+			border:1px solid #CCCCCC;
+			border-width:1px 0px;
+			height:40px; 
+			/*background-color: red;*/
+			text-align: right;
+			font-size: 15px;
+		}
+
+
+		#content_box{
+			height: 30%;
+			padding-top: 60px;
+		}
+
+		.content_item{
+			height: 30%;
+			width: 100%;
+			/*margin: 5% 0;*/
+			/*padding-top: 0.3*height;*/
+			color: #000000;
+			text-align: center;
+/*			font-family:  Consolas, monaco, monospace;*/
+			font-weight: bold;
+			font-size: 20px;
+		}
+
+		#bottom_box{
+			padding-top: 40px;
+			height: 15%;
+			width: 100%;
+			position: fixed; 
+			bottom: 0;
+			background-color: #F3F3F3;
+		}
+
+		.button1{
+			margin: auto;
+			padding-top: 10px;
+			background-color: #FFFFFF;
+			height: 30px;
+/*			border:1px solid #282828;*/
+			box-shadow: darkgrey 0px 0px 2px;
+			color:#262626;
+			font-size: 12px; 
+			font-weight: bold;
+			text-align: center;
+
+		}
+
+		#copyright{
+			position: fixed; 
+			bottom: 0px;
+			height: 28px;
+			width: 100%;
+			padding-top: 10px;
+			background-color: #FACC3D;
+			color: #535353;
+			font-size: 12px;
+			font-weight: bold;
+			text-align: center;
+
+
+		}
