@@ -53,6 +53,16 @@
 			fclose($file_output);
 			?>
 
+			// var people = <?php
+			// $file_input = fopen("input.txt","r");
+			// $input = fgets($file_input);
+			// $file_output = fopen("output.txt","r");
+			// $output = fgets($file_output);
+			// echo $input - $output;
+			// fclose($file_input);
+			// fclose($file_output);
+			// ?>
+
 			var people=input-output;
 			// var people = GetRandomNum(20,300);
 			var remained_seat = total_seat-people;
@@ -109,7 +119,7 @@
 <!-- 			混雑率： -->
 		</div>
 		<div class="content_item" id="test_box" style="color:red; font-size: 18px;"> 
-
+<!-- 			混雑率： -->
 		</div>
 		
 	</div>
